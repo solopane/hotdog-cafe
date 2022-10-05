@@ -130,7 +130,7 @@ const Balances: React.FC = () => {
         </CardContent>
         <Footnote>
           New rewards
-          <FootnoteValue> <img src={Hots} height="14" /> 0.06 - 0.071 HOTS</FootnoteValue>
+          <FootnoteValue> <img src={Hots} height="14" /> 0.2 - 2.5 HOTS</FootnoteValue>
         </Footnote>
       </Card>
     </StyledWrapper>

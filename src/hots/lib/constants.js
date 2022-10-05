@@ -23,14 +23,18 @@ export const INTEGERS = {
 }
 
 export const addressMap = {
- pancakeFactory: '0xBCfCcbde45cE874adCB698cC183deBcF17952812',
- panecakeRouter: '0x05fF2B0DB69458A0750badebc4f9e13aDd608C7F',
+ pancakeFactory: '0xdd538E4Fd1b69B7863E1F741213276A6Cf1EfB3B',
+ panecakeRouter: '0x3047799262d8D2EF41eD2a222205968bC9B0d895',
  WBNB: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
  HOTS: '0x793766efcA4CEF8c55EE950E759AD6FF73D49c09',
- BNBHOTDOG: '0x7b4EA74EE1085bE9361c893Aa4f888E169af0Ee5',
- CAKEHOTDOG: '0x4C0747c9b8c11783AC00d8e653AF9a7774B1E80b',
- HOTDOGBURGER: '0xFAF539671Eb058C2Cef1Fc8eE49d647DE51C974e',
- HOTDOGHOTS: '0x4d67fbd680ba6be639bfe7659a69e2d3b685a20a',
+ HOTSWBNB: '0xCF33801D538C7895c4405D13E801Af6F3C6fCEF8',
+ WBNBBUSD: '0xF455f6f7988B752F75488E2CCcC030346d0Cac72',
+ KP3RBWBNB: '0x2113bA4000d8a0B201C3e916E63Fe0DCDfBe476a',
+ USDCWBNB: '0x578e8CEc62666D2750D92EcC70bE0961FF3Ab269',
+ KP3RBBUSD: '0xA457b4dBC29bb20482Ecd2DEB8D41B154445d50d',
+ WBNBUSDT: '0xcfD63197d764cd70d07bB607e6367Ae0E869BaDD',
+ CHSWBNB: '0x51A162dd678d75C269Ef6680193C019e0B4Bda7E',
+ DAIWBNB: '0x89D20Dcda1DC49F47BcDA00C3b84Fe30AC3d127b',
  }
 
 export const contractAddresses = {
@@ -48,50 +52,179 @@ export const contractAddresses = {
 //BELOW ARE LISTED POOLS
 export const supportedPools = [
   {
-     pid: 0,
+     pid: 4,
      lpAddresses: {
-       56: '0x7b4EA74EE1085bE9361c893Aa4f888E169af0Ee5',
+       56: '0xCF33801D538C7895c4405D13E801Af6F3C6fCEF8',
      },
      tokenAddresses: {
        56: '0x55f0799D60F5f1046971d494bCe376A09Dd4C668',
      },
-     name: 'HOTDOG - BNB',
-     symbol: 'HOTDOG-BNB LP',
-     symbolShort: 'HOTDOG-BNB',
-     tokenSymbol: 'HOTDOG',
+     name: 'HOTS - BNB',
+     symbol: 'HOTS-BNB LP',
+     symbolShort: 'HOTS-BNB',
+     tokenSymbol: 'HOTS',
      token2Symbol: 'BNB',
-     icon: 'https://hotdog.cafe/hotdog-bnb.svg',
      isHot: true,
      isNew: false,
-     rewardValue: '0.07 HOTS',
+     rewardValue: '1.07 HOTS',
      apyValue: '2210%',
-     protocal: 'PancakeSwap',
-     iconProtocal: 'https://exchange.pancakeswap.finance/favicon.png',
-     pairLink: 'https://pancakeswap.info/pair/0x7b4ea74ee1085be9361c893aa4f888e169af0ee5',
-     addLiquidityLink: 'https://exchange.pancakeswap.finance/#/add/0x55f0799d60f5f1046971d494bce376a09dd4c668/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c'
+     protocal: 'CheeseSwap',
+     iconProtocal: 'https://raw.githubusercontent.com/cheeseswapbsc/cheeseswap-interface/master/public/favicon.png',
+     pairLink: 'https://cheeseswap.info/#/pair/0xCF33801D538C7895c4405D13E801Af6F3C6fCEF8'
+
    },
    {
-     pid: 3,
+     pid: 9,
      lpAddresses: {
-       56: '0x4d67fbd680ba6be639bfe7659a69e2d3b685a20a',
+       56: '0xF455f6f7988B752F75488E2CCcC030346d0Cac72',
      },
      tokenAddresses: {
-       56: '0x793766efca4cef8c55ee950e759ad6ff73d49c09',
+       56: '0x55f0799D60F5f1046971d494bCe376A09Dd4C668',
      },
-     name: 'HOTDOG - HOTS',
-     symbol: 'HOTDOG-HOTS LP',
-     symbolShort: 'HOTDOG-HOTS',
-     tokenSymbol: 'HOTDOG',
-     token2Symbol: 'HOTS',
-     icon: 'https://hotdog.cafe/hotdog-hots.svg',
-     isHot: false,
-     isNew: true,
-     rewardValue: '0.071 HOTS',
-     apyValue: '1853%',
-     protocal: 'PancakeSwap',
-     iconProtocal: 'https://exchange.pancakeswap.finance/favicon.png',
-     pairLink: ' https://pancakeswap.info/pair/0x4d67fbd680ba6be639bfe7659a69e2d3b685a20a',
-     addLiquidityLink: 'https://exchange.pancakeswap.finance/#/add/0x55f0799d60f5f1046971d494bce376a09dd4c668/0x793766efca4cef8c55ee950e759ad6ff73d49c09'
+     name: 'BUSD - BNB',
+     symbol: 'BUSD-BNB LP',
+     symbolShort: 'BUSD-BNB',
+     tokenSymbol: 'BUSD',
+     token2Symbol: 'BNB',
+     isHot: true,
+     isNew: false,
+     rewardValue: '0.9 HOTS',
+     apyValue: '1290%',
+     protocal: 'CheeseSwap',
+     iconProtocal: 'https://raw.githubusercontent.com/cheeseswapbsc/cheeseswap-interface/master/public/favicon.png',
+     pairLink: 'https://cheeseswap.info/#/pair/0xF455f6f7988B752F75488E2CCcC030346d0Cac72'
+   },
+
+   {
+     pid: 8,
+     lpAddresses: {
+       56: '0x2113bA4000d8a0B201C3e916E63Fe0DCDfBe476a',
+     },
+     tokenAddresses: {
+       56: '0x55f0799D60F5f1046971d494bCe376A09Dd4C668',
+     },
+     name: 'KP3RB - BNB',
+     symbol: 'KP3RB-BNB LP',
+     symbolShort: 'KP3RB-BNB',
+     tokenSymbol: 'KP3RB',
+     token2Symbol: 'BNB',
+     isHot: true,
+     isNew: false,
+     rewardValue: '0.55 HOTS',
+     apyValue: '1090%',
+     protocal: 'CheeseSwap',
+     iconProtocal: 'https://raw.githubusercontent.com/cheeseswapbsc/cheeseswap-interface/master/public/favicon.png',
+     pairLink: 'https://cheeseswap.info/#/pair/0x2113bA4000d8a0B201C3e916E63Fe0DCDfBe476a'
+   },
+
+   {
+     pid: 10,
+     lpAddresses: {
+       56: '0x578e8CEc62666D2750D92EcC70bE0961FF3Ab269',
+     },
+     tokenAddresses: {
+       56: '0x55f0799D60F5f1046971d494bCe376A09Dd4C668',
+     },
+     name: 'USDC - BNB',
+     symbol: 'USDC-BNB LP',
+     symbolShort: 'USDC-BNB',
+     tokenSymbol: 'USDC',
+     token2Symbol: 'BNB',
+     isHot: true,
+     isNew: false,
+     rewardValue: '0.45 HOTS',
+     apyValue: '1120%',
+     protocal: 'CheeseSwap',
+     iconProtocal: 'https://raw.githubusercontent.com/cheeseswapbsc/cheeseswap-interface/master/public/favicon.png',
+     pairLink: 'https://cheeseswap.info/#/pair/0x578e8CEc62666D2750D92EcC70bE0961FF3Ab269'
+   },
+
+   {
+     pid: 6,
+     lpAddresses: {
+       56: '0xA457b4dBC29bb20482Ecd2DEB8D41B154445d50d',
+     },
+     tokenAddresses: {
+       56: '0x55f0799D60F5f1046971d494bCe376A09Dd4C668',
+     },
+     name: 'KP3RB - BUSD',
+     symbol: 'KP3RB-BUSD LP',
+     symbolShort: 'KP3RB-BUSD',
+     tokenSymbol: 'KP3RB',
+     token2Symbol: 'BUSD',
+     isHot: true,
+     isNew: false,
+     rewardValue: '0.65 HOTS',
+     apyValue: '1300%',
+     protocal: 'CheeseSwap',
+     iconProtocal: 'https://raw.githubusercontent.com/cheeseswapbsc/cheeseswap-interface/master/public/favicon.png',
+     pairLink: 'https://cheeseswap.info/#/pair/0xA457b4dBC29bb20482Ecd2DEB8D41B154445d50d'
+   },
+
+   {
+     pid: 11,
+     lpAddresses: {
+       56: '0xcfD63197d764cd70d07bB607e6367Ae0E869BaDD',
+     },
+     tokenAddresses: {
+       56: '0x55f0799D60F5f1046971d494bCe376A09Dd4C668',
+     },
+     name: 'WBNB - USDT',
+     symbol: 'WBNB-USDT LP',
+     symbolShort: 'WBNB-USDT',
+     tokenSymbol: 'WBNB',
+     token2Symbol: 'USDT',
+     isHot: true,
+     isNew: false,
+     rewardValue: '0.25 HOTS',
+     apyValue: '900%',
+     protocal: 'CheeseSwap',
+     iconProtocal: 'https://raw.githubusercontent.com/cheeseswapbsc/cheeseswap-interface/master/public/favicon.png',
+     pairLink: 'https://cheeseswap.info/#/pair/0xcfD63197d764cd70d07bB607e6367Ae0E869BaDD'
+   },
+
+   {
+     pid: 7,
+     lpAddresses: {
+       56: '0x51A162dd678d75C269Ef6680193C019e0B4Bda7E',
+     },
+     tokenAddresses: {
+       56: '0x55f0799D60F5f1046971d494bCe376A09Dd4C668',
+     },
+     name: 'CHS - WBNB',
+     symbol: 'CHS-WBNB LP',
+     symbolShort: 'CHS-WBNB',
+     tokenSymbol: 'CHS',
+     token2Symbol: 'WBNB',
+     isHot: true,
+     isNew: false,
+     rewardValue: '1.25 HOTS',
+     apyValue: '2900%',
+     protocal: 'CheeseSwap',
+     iconProtocal: 'https://raw.githubusercontent.com/cheeseswapbsc/cheeseswap-interface/master/public/favicon.png',
+     pairLink: 'https://cheeseswap.info/#/pair/0x51A162dd678d75C269Ef6680193C019e0B4Bda7E'
+   },
+
+   {
+     pid: 12,
+     lpAddresses: {
+       56: '0x89D20Dcda1DC49F47BcDA00C3b84Fe30AC3d127b',
+     },
+     tokenAddresses: {
+       56: '0x55f0799D60F5f1046971d494bCe376A09Dd4C668',
+     },
+     name: 'DAI - WBNB',
+     symbol: 'DAI-WBNB LP',
+     symbolShort: 'DAI-WBNB',
+     tokenSymbol: 'DAI',
+     token2Symbol: 'WBNB',
+     isHot: true,
+     isNew: false,
+     rewardValue: '0.22 HOTS',
+     apyValue: '800%',
+     protocal: 'CheeseSwap',
+     iconProtocal: 'https://raw.githubusercontent.com/cheeseswapbsc/cheeseswap-interface/master/public/favicon.png',
+     pairLink: 'https://cheeseswap.info/#/pair/0x89D20Dcda1DC49F47BcDA00C3b84Fe30AC3d127b'
    }
 
 ]

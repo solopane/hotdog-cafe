@@ -2,7 +2,8 @@
   "name": "@hotdog/cafe",
   "version": "1.0.2",
   "license": "MIT",
-  "private": true,
+  "private": false,
+  "homepage": "./"
   "dependencies": {
     "@types/debounce": "^1.2.0",
     "@types/jest": "^26.0.9",
