@@ -35,6 +35,7 @@ export const addressMap = {
  WBNBUSDT: '0xcfD63197d764cd70d07bB607e6367Ae0E869BaDD',
  CHSWBNB: '0x51A162dd678d75C269Ef6680193C019e0B4Bda7E',
  DAIWBNB: '0x89D20Dcda1DC49F47BcDA00C3b84Fe30AC3d127b',
+ KP3RBCHS: '0xe05207A432f6B06Fe9f78B598c1f890b260Dec45',
  }
 
 export const contractAddresses = {
@@ -73,6 +74,30 @@ export const supportedPools = [
      pairLink: 'https://cheeseswap.info/#/pair/0xCF33801D538C7895c4405D13E801Af6F3C6fCEF8'
 
    },
+
+   {
+      pid: 13,
+      lpAddresses: {
+        56: '0xe05207A432f6B06Fe9f78B598c1f890b260Dec45',
+      },
+      tokenAddresses: {
+        56: '0x55f0799D60F5f1046971d494bCe376A09Dd4C668',
+      },
+      name: 'KP3RB - BNB',
+      symbol: 'KP3RB-BNB LP',
+      symbolShort: 'KP3RB-BNB',
+      tokenSymbol: 'KP3RB',
+      token2Symbol: 'BNB',
+      isHot: true,
+      isNew: false,
+      rewardValue: '0.77 HOTS',
+      apyValue: '1210%',
+      protocal: 'CheeseSwap',
+      iconProtocal: 'https://raw.githubusercontent.com/cheeseswapbsc/cheeseswap-interface/master/public/favicon.png',
+      pairLink: 'https://cheeseswap.info/#/pair/0xe05207A432f6B06Fe9f78B598c1f890b260Dec45'
+
+    },
+
    {
      pid: 9,
      lpAddresses: {
