@@ -9,7 +9,7 @@ const Logo: React.FC = () => {
     <StyledLogo to="/">
       <img src={hots} height="48" style={{ marginTop: -4 }} />
       <StyledText>
-        HOTDOG.CAFE
+        HOTS Maker
       </StyledText>
     </StyledLogo>
   )

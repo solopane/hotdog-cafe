@@ -17,8 +17,8 @@ const Nav: React.FC = () => {
         <StyledLink target="_blank" rel="noopener noreferrer" href="https://t.me/hotdogcafe">
           Telegram
         </StyledLink>
-        <StyledLink target="_blank" rel="noopener noreferrer" href="mailto:hello@hotdog.cafe">
-         📨 hello@hotdog.cafe
+        <StyledLink target="_blank" rel="noopener noreferrer" href="mailto:hello@hotswap.link">
+         📨 hello@hotswap.link
         </StyledLink>
       </StyledNav>
     )
